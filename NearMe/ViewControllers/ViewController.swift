@@ -144,7 +144,9 @@ extension ViewController {
         directionsButton.addTarget(self, action: #selector(openDirections), for: .touchUpInside)
         mapModeButton.addTarget(self, action: #selector(toggleMapMode), for: .touchUpInside)
     }
-    
+}
+
+extension ViewController {
     private func checkLocationAuthorization() {
         guard let locationManager = locationManager,
               let location = locationManager.location else { return }
@@ -197,7 +199,9 @@ extension ViewController {
             }
         }
     }
-    
+}
+
+extension ViewController {
     @objc private func recenterMap() {
         guard let location = locationManager?.location else { return }
         let region = MKCoordinateRegion(center: location.coordinate,
@@ -225,7 +229,6 @@ extension ViewController {
             mapView.mapType = .standard
         }
     }
-    
 }
 
 extension ViewController: CLLocationManagerDelegate {
