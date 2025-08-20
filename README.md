@@ -28,8 +28,25 @@ This project integrates **Core Location** with **MapKit** to show the user’s c
 ---
 
 ## 📸 Screenshots
-<img src="Screenshots/welcome.png" alt="welcome screen" width="300" />  
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="Screenshots/launchScreen.png" alt="Launch Screen" width="300"/>
+  <img src="Screenshots/mapView.png" alt="Map View" width="300"/>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="Screenshots/satelliteView.png" alt="Satellite View" width="300"/>
+  <img src="Screenshots/searchResult.png" alt="Search Result" width="300"/>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="Screenshots/detailedView.png" alt="Detailed View" width="300"/>
+  <img src="Screenshots/annotations.png" alt="Annotations" width="300"/>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="Screenshots/directions.png" alt="Directions" width="300"/>
+</div>
 
 ---
 
